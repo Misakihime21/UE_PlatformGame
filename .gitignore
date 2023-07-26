@@ -79,5 +79,11 @@ Content/ParagonShinbi/*
 # Assets from store Environment
 Content/EnvironmentPack1/*
 
+# Assets from store Animations Starter Pack
+Content/AnimStarterPack/*
+
+# Assets from store Uncharted Base
+Content/AdvancedLocomotionV4/*
+
 # Default assets
 Content/Characters/*
