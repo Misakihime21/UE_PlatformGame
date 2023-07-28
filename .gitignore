@@ -76,6 +76,9 @@ DerivedDataCache/*
 # Assets from store Shinbi
 Content/ParagonShinbi/*
 
+# Assets from store Gideon
+Content/ParagonGideon/*
+
 # Assets from store Environment
 Content/EnvironmentPack1/*
 

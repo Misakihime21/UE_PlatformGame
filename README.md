@@ -1,5 +1,5 @@
 # UE_PlatformGame
-Platform Game with free assets
+Platform Game with Paragon assets
 
 -------
 
@@ -26,7 +26,10 @@ CLIMBING
 - also changed crouching animation.
 
 ENEMY
-- 
+- added Gideon;
+- patroling works from one PatrolPoint to another (choose in the details of an actor);
+- use NavMesh to show the area of action;
+- forced "IsAccelerating" for Gideon to make him run.
 
 -------
 
@@ -36,3 +39,5 @@ WHAT TO IMPROVE
 - the crouching animation: character looking in the wrong side;
 - the climbing bag is still there when the angle of a jump is weird
 	prbly needed to change WALL NORMAL valuable so it isn't rotates with character that much.
+- Gideon's running - change AnimBP so he doesn't need Accelerating always.
+- bug when jumps on the enemy - character is thrown away from the Y0 route.
