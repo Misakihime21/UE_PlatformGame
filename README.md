@@ -38,6 +38,10 @@ DAMAGE
 - fadeout after death;
 - heal sphere.
 
+PLATFORM
+- moving platforms;
+- platforms activating by E button;
+
 -------
 
 WHAT TO IMPROVE
@@ -45,7 +49,8 @@ WHAT TO IMPROVE
 + the climbing bag is still there when the angle of a jump is weird
 	prbly needed to change WALL NORMAL valuable so it isn't rotates with character that much.
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
-- bug when jumps on the enemy - character is thrown away from the Y0 route
+- bug when jumps on the enemy - character is thrown away from the Y0 route;
+- interactive platforms without button;
 - death screen + new game.
 
 ANIMATION:
@@ -55,4 +60,5 @@ ANIMATION:
 - on-hit animation instead of LaunchCharacter (immune to a damage);
 - magic damage animation instead of collision hit.
 
-1:22 platforms
+2:12
+
