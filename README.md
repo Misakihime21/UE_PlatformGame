@@ -9,7 +9,8 @@ WHAT IS DONE:
 - the Shinbi character added;
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
-- health bar widget with changeble color.
+- health bar widget with changeble color;
+- respawn and checkpoints.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -33,6 +34,8 @@ ENEMY
 DAMAGE
 - added Health and on-hit damage;
 - character's immunity to a damage after hit; 
+- character bouncing after being damaged;
+- fadeout after death;
 - heal sphere.
 
 -------
@@ -49,5 +52,7 @@ ANIMATION:
 - the hanging animation: hands are too wide;
 - the crouching animation: character looking in the wrong side;
 - death animation;
-- on-hit animation;
+- on-hit animation instead of LaunchCharacter (immune to a damage);
 - magic damage animation instead of collision hit.
+
+1:22 platforms
