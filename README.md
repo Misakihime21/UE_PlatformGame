@@ -41,6 +41,10 @@ DAMAGE
 PLATFORM
 - moving platforms;
 - platforms activating by E button;
+- destroying platforms (could also be used as damaging platforms from above);
+- door and key;
+
+
 
 -------
 
@@ -49,15 +53,21 @@ WHAT TO IMPROVE
 + the climbing bag is still there when the angle of a jump is weird
 	prbly needed to change WALL NORMAL valuable so it isn't rotates with character that much.
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
-- bug when jumps on the enemy - character is thrown away from the Y0 route;
+- bug when jumps on the moving actors - character is thrown away from the Y0 route;
+	partly fixed: from Movement Input disabled Get Control Rotation.
 - interactive platforms without button;
-- death screen + new game.
+- pause;
+- respawn on the last checkpoint;
++ death after PainVolume - fadein isn't working;
+- death screen + new game;
+- UI booster timer.
 
 ANIMATION:
 - the hanging animation: hands are too wide;
 - the crouching animation: character looking in the wrong side;
 - death animation;
 - on-hit animation instead of LaunchCharacter (immune to a damage);
+- animation for the environment damage (Branch False | immune to a damage);
 - magic damage animation instead of collision hit.
 
 2:12
