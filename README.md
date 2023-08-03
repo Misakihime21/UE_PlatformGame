@@ -10,6 +10,9 @@ WHAT IS DONE:
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
 - health bar widget with changeble color;
+- booster (double jump);
+- collectable items and UI for them;
+- level transition;
 - respawn and checkpoints.
 
 CROUCHING
@@ -70,5 +73,5 @@ ANIMATION:
 - animation for the environment damage (Branch False | immune to a damage);
 - magic damage animation instead of collision hit.
 
-2:12
+1:24
 
