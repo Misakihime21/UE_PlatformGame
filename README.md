@@ -13,7 +13,9 @@ WHAT IS DONE:
 - booster (double jump);
 - collectable items and UI for them;
 - level transition;
-- respawn and checkpoints.
+- respawn and checkpoints;
+- reset on R;
+- effects.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -60,10 +62,15 @@ WHAT TO IMPROVE
 	partly fixed: from Movement Input disabled Get Control Rotation.
 - interactive platforms without button;
 - pause;
-- respawn on the last checkpoint;
++ respawn on the last checkpoint  BUTTON;
 + death after PainVolume - fadein isn't working;
 - death screen + new game;
-- UI booster timer.
+- UI booster timer;
+- key isn't working after respawn;
+- dying from enemy kills respawn.
++ respawn default point (from the start)
+	RespawnLocation default set manually to a player start location;
+
 
 ANIMATION:
 - the hanging animation: hands are too wide;
