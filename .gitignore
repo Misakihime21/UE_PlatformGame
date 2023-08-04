@@ -73,20 +73,13 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Assets from store Shinbi
+# Assets from store
 Content/ParagonShinbi/*
-
-# Assets from store Gideon
 Content/ParagonGideon/*
-
-# Assets from store Environment
 Content/EnvironmentPack1/*
-
-# Assets from store Animations Starter Pack
 Content/AnimStarterPack/*
-
-# Assets from store Uncharted Base
 Content/AdvancedLocomotionV4/*
+Content/BlinkAndDashVFX/*
 
 # Default assets
 Content/Characters/*
