@@ -14,7 +14,10 @@ WHAT IS DONE:
 - respawn and checkpoints;
 - reset on R;
 - effects
-- main menu.
+- main menu;
+- end when every items collected (BP_Collectable);
+- death count;
+- simple quest.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -71,10 +74,11 @@ WHAT TO IMPROVE
 + death after PainVolume - fadein isn't working;
 - death screen + new game;
 - UI booster timer;
-- key isn't working after respawn;
-- dying from enemy kills respawn.
 + respawn default point (from the start)
 	RespawnLocation default set manually to a player start location;
+- killing the enemy;
+- boost UI isn't dissapear when you take another boost too fast;
++ death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better
 
 
 ANIMATION:
