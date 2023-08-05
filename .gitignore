@@ -83,3 +83,6 @@ Content/BlinkAndDashVFX/*
 
 # Default assets
 Content/Characters/*
+
+# Sounds
+Content/ThirdPerson/Sounds/*

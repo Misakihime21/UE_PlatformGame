@@ -17,7 +17,8 @@ WHAT IS DONE:
 - main menu;
 - end when every items collected (BP_Collectable);
 - death count;
-- simple quest.
+- simple quest;
+- sounds.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -77,7 +78,8 @@ WHAT TO IMPROVE
 + respawn default point (from the start)
 	RespawnLocation default set manually to a player start location;
 - killing the enemy;
-- boost UI isn't dissapear when you take another boost too fast;
+- boost UI isn't disappear when you take another boost too fast;
+- color code for ledges when it's climbable;
 + death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better
 
 
@@ -89,5 +91,8 @@ ANIMATION:
 - animation for the environment damage (Branch False | immune to a damage);
 - magic damage animation instead of collision hit.
 
-1:24
+
+#ue кто нибудь смог зареспавнить акторов после респавна самого игрока?
+хочется, чтобы после смерти и возрождения враги и другие предметы тоже были на месте
+На сколько помню, тем же spawn actor from class в логике респауна игрока можно добавить
 
