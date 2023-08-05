@@ -10,12 +10,14 @@ WHAT IS DONE:
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
 - health bar widget with changeble color;
-- booster (double jump);
-- collectable items and UI for them;
 - level transition;
 - respawn and checkpoints;
 - reset on R;
-- effects.
+- effects
+- main menu;
+- end when every items collected (BP_Collectable);
+- death count;
+- simple quest.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -40,14 +42,20 @@ DAMAGE
 - added Health and on-hit damage;
 - character's immunity to a damage after hit; 
 - character bouncing after being damaged;
-- fadeout after death;
-- heal sphere.
+- fadeout after death.
 
 PLATFORM
 - moving platforms;
 - platforms activating by E button;
 - destroying platforms (could also be used as damaging platforms from above);
 - door and key;
+
+COLLECTABLES
+- heal sphere;
+- double jump booster;
+- collectables;
+- key;
+- UI for collectables.
 
 
 
@@ -66,10 +74,11 @@ WHAT TO IMPROVE
 + death after PainVolume - fadein isn't working;
 - death screen + new game;
 - UI booster timer;
-- key isn't working after respawn;
-- dying from enemy kills respawn.
 + respawn default point (from the start)
 	RespawnLocation default set manually to a player start location;
+- killing the enemy;
+- boost UI isn't dissapear when you take another boost too fast;
++ death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better
 
 
 ANIMATION:
