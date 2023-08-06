@@ -1,6 +1,8 @@
 # UE_PlatformGame
 Platform Game with Paragon assets
 
+Play here: https://misakihime21.itch.io/path-of-the-guardian 
+
 -------
 
 WHAT IS DONE:
@@ -18,7 +20,9 @@ WHAT IS DONE:
 - end when every items collected (BP_Collectable);
 - death count;
 - simple quest;
-- sounds.
+- sounds;
+- assets;
+- blocking volume added.
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -66,21 +70,23 @@ WHAT TO IMPROVE
 
 + the climbing bag is still there when the angle of a jump is weird
 	prbly needed to change WALL NORMAL valuable so it isn't rotates with character that much.
++ respawn on the last checkpoint  BUTTON;
++ death after PainVolume - fadein isn't working;
++ death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better;
++ respawn default point (from the start)
+	RespawnLocation default set manually to a player start location;
++ death screen + new game;
+
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation.
 - interactive platforms without button;
 - pause;
-+ respawn on the last checkpoint  BUTTON;
-+ death after PainVolume - fadein isn't working;
-- death screen + new game;
 - UI booster timer;
-+ respawn default point (from the start)
-	RespawnLocation default set manually to a player start location;
 - killing the enemy;
 - boost UI isn't disappear when you take another boost too fast;
 - color code for ledges when it's climbable;
-+ death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better
+- bonus UI didn't dissapear after death;
 
 
 ANIMATION:
