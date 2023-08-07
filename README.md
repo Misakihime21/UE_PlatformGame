@@ -19,7 +19,6 @@ WHAT IS DONE:
 - main menu;
 - end when every items collected (BP_Collectable);
 - death count;
-- simple quest;
 - sounds;
 - assets;
 - blocking volume added.
@@ -50,18 +49,22 @@ DAMAGE
 - fadeout after death.
 
 PLATFORM
-- moving platforms;
-- platforms activating by E button;
+- moving platforms (duration in sec);
+- platforms activating by E button (float duration from 0 to 1);
 - destroying platforms (could also be used as damaging platforms from above);
 - door and key;
 
 COLLECTABLES
 - heal sphere;
-- double jump booster;
+- double jump booster (can have only one at the time);
 - collectables;
 - key;
 - UI for collectables.
 
+END SCREEN
+- death count;
+- collectables;
+- reset button.
 
 
 -------
@@ -76,6 +79,8 @@ WHAT TO IMPROVE
 + respawn default point (from the start)
 	RespawnLocation default set manually to a player start location;
 + death screen + new game;
++ boost UI isn't disappear when you take another boost too fast;
++ bonus UI didn't dissapear after death\\reset;
 
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
@@ -84,9 +89,13 @@ WHAT TO IMPROVE
 - pause;
 - UI booster timer;
 - killing the enemy;
-- boost UI isn't disappear when you take another boost too fast;
 - color code for ledges when it's climbable;
-- bonus UI didn't dissapear after death;
+- health sphere shouldn't be used when HP is full + UI - when you pick it up or when you can't;
+- jump doesn't response well - sometimes it isn't working;
+- platforms oninput and onstep broke;
+- add reset button on the end;
+- parent class for platforms and collectables;
+
 
 
 ANIMATION:
