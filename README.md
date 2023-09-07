@@ -88,15 +88,17 @@ WHAT TO IMPROVE
 - interactive platforms without button;
 - pause;
 - UI booster timer;
-- killing the enemy;
+- killing the enemy + UI of his health (maybe a bonus after killing?);
 - color code for ledges when it's climbable;
 - health sphere shouldn't be used when HP is full + UI - when you pick it up or when you can't;
 - jump doesn't response well - sometimes it isn't working;
 - platforms oninput and onstep broke;
 - add reset button on the end;
 - parent class for platforms and collectables;
-
-
+- change environment to more realistic one, so it wouldn't be flying platforms, but the houses,
+ walls, mountains and so on;
+- 
+ После приседания проигрывается анимация бега и не совсем понятно, чем опасна трава,
 
 ANIMATION:
 - the hanging animation: hands are too wide;
