@@ -81,11 +81,16 @@ WHAT TO IMPROVE
 + death screen + new game;
 + boost UI isn't disappear when you take another boost too fast;
 + bonus UI didn't dissapear after death\\reset;
++ interactive platforms without button;
+
+
+- Shinbi's attack bug sometimes and doesn't reset
+- Gideon turning when is attacked in the back
 
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
-	partly fixed: from Movement Input disabled Get Control Rotation.
-- interactive platforms without button;
+	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
+
 - pause;
 - UI booster timer;
 - killing the enemy + UI of his health (maybe a bonus after killing?);
