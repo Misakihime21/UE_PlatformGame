@@ -82,7 +82,14 @@ WHAT TO IMPROVE
 + boost UI isn't disappear when you take another boost too fast;
 + bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
++ shinbi attack;
++ enemy attack animation;
++ enemy health bar;
++ enemy killing;
++ platform changed to the rock mesh;
 
+
+- use text from sounds for the basics quest - it looks nice;
 
 - Shinbi's attack bug sometimes and doesn't reset
 - Gideon turning when is attacked in the back
@@ -93,7 +100,7 @@ WHAT TO IMPROVE
 
 - pause;
 - UI booster timer;
-- killing the enemy + UI of his health (maybe a bonus after killing?);
+- kill count for the end screen;
 - color code for ledges when it's climbable;
 - health sphere shouldn't be used when HP is full + UI - when you pick it up or when you can't;
 - jump doesn't response well - sometimes it isn't working;
@@ -103,7 +110,7 @@ WHAT TO IMPROVE
 - change environment to more realistic one, so it wouldn't be flying platforms, but the houses,
  walls, mountains and so on;
 - 
- После приседания проигрывается анимация бега и не совсем понятно, чем опасна трава,
+ После приседания проигрывается анимация бега
 
 ANIMATION:
 - the hanging animation: hands are too wide;
