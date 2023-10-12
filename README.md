@@ -8,7 +8,6 @@ Play here: https://misakihime21.itch.io/path-of-the-guardian
 WHAT IS DONE:
 
 - created new level;
-- the Shinbi character added;
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
 - health bar widget with changeble color;
@@ -18,10 +17,14 @@ WHAT IS DONE:
 - effects
 - main menu;
 - end when every items collected (BP_Collectable);
-- death count;
 - sounds;
 - assets;
 - blocking volume added.
+
+SHINBI
+- the Shinbi character added;
+- attack;
+- 
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -40,6 +43,9 @@ ENEMY
 - added Gideon;
 - patroling works from one PatrolPoint to another (choose in the details of an actor);
 - use NavMesh to show the area of action;
+- attack animation;
+- enemy health bar;
+- enemy death;
 - forced "IsAccelerating" for Gideon to make him run.
 
 DAMAGE
@@ -83,9 +89,6 @@ WHAT TO IMPROVE
 + bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
 + shinbi attack;
-+ enemy attack animation;
-+ enemy health bar;
-+ enemy killing;
 + platform changed to the rock mesh;
 
 
