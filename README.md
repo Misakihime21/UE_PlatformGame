@@ -3,6 +3,7 @@ Platform Game with Paragon assets
 
 Play here: https://misakihime21.itch.io/path-of-the-guardian 
 
+"Iron chain" (https://skfb.ly/6VsTr) by DaBoRi is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 -------
 
 WHAT IS DONE:
@@ -88,10 +89,9 @@ WHAT TO IMPROVE
 + boost UI isn't disappear when you take another boost too fast;
 + bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
-+ shinbi attack;
 + platform changed to the rock mesh;
 
-
+- jumps aren't working properly  - maybe waiting for animation to stop;
 - use text from sounds for the basics quest - it looks nice;
 
 - Shinbi's attack bug sometimes and doesn't reset
@@ -100,6 +100,11 @@ WHAT TO IMPROVE
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
+	
+	
+	
+- non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
+	
 
 - pause;
 - UI booster timer;
