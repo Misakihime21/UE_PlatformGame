@@ -91,6 +91,9 @@ WHAT TO IMPROVE
 + interactive platforms without button;
 + platform changed to the rock mesh;
 
+
+- on-step platform should come back in case u fell;
+
 - jumps aren't working properly  - maybe waiting for animation to stop;
 - use text from sounds for the basics quest - it looks nice;
 
