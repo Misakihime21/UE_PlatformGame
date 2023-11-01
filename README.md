@@ -90,11 +90,9 @@ WHAT TO IMPROVE
 + bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
 + platform changed to the rock mesh;
++ on-step platform come back in case u fell;
 
-
-- on-step platform should come back in case u fell;
-
-- jumps aren't working properly  - maybe waiting for animation to stop;
+- jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
 - use text from sounds for the basics quest - it looks nice;
 
 - Shinbi's attack bug sometimes and doesn't reset
