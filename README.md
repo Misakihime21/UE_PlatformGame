@@ -92,6 +92,11 @@ WHAT TO IMPROVE
 + platform changed to the rock mesh;
 + on-step platform come back in case u fell;
 
+
+- "You need the key" for the ending door;
+- Ending counts after get to the door;
+- checkpoint sound;
+
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
 - use text from sounds for the basics quest - it looks nice;
 
