@@ -91,6 +91,7 @@ WHAT TO IMPROVE
 + interactive platforms without button;
 + platform changed to the rock mesh;
 + on-step platform come back in case u fell;
++ oninput platform rotation;
 
 
 - "You need the key" for the ending door;
