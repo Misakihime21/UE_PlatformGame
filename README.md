@@ -3,12 +3,12 @@ Platform Game with Paragon assets
 
 Play here: https://misakihime21.itch.io/path-of-the-guardian 
 
+"Iron chain" (https://skfb.ly/6VsTr) by DaBoRi is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 -------
 
 WHAT IS DONE:
 
 - created new level;
-- the Shinbi character added;
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
 - health bar widget with changeble color;
@@ -18,10 +18,14 @@ WHAT IS DONE:
 - effects
 - main menu;
 - end when every items collected (BP_Collectable);
-- death count;
 - sounds;
 - assets;
 - blocking volume added.
+
+SHINBI
+- the Shinbi character added;
+- attack;
+- 
 
 CROUCHING
 - added new Input for Ctrl (crouching), E (interaction);
@@ -40,6 +44,9 @@ ENEMY
 - added Gideon;
 - patroling works from one PatrolPoint to another (choose in the details of an actor);
 - use NavMesh to show the area of action;
+- attack animation;
+- enemy health bar;
+- enemy death;
 - forced "IsAccelerating" for Gideon to make him run.
 
 DAMAGE
@@ -82,13 +89,16 @@ WHAT TO IMPROVE
 + boost UI isn't disappear when you take another boost too fast;
 + bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
-+ shinbi attack;
-+ enemy attack animation;
-+ enemy health bar;
-+ enemy killing;
 + platform changed to the rock mesh;
++ on-step platform come back in case u fell;
++ oninput platform rotation;
 
 
+- "You need the key" for the ending door;
+- Ending counts after get to the door;
+- checkpoint sound;
+
+- jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
 - use text from sounds for the basics quest - it looks nice;
 
 - Shinbi's attack bug sometimes and doesn't reset
@@ -97,6 +107,11 @@ WHAT TO IMPROVE
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
+	
+	
+	
+- non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
+	
 
 - pause;
 - UI booster timer;
