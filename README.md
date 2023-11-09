@@ -92,10 +92,12 @@ WHAT TO IMPROVE
 + platform changed to the rock mesh;
 + on-step platform come back in case u fell;
 + oninput platform rotation;
++ text ui modified;
++ "You need the key" for the ending door;
 
 - impossible to climb after the falling plaftorms if u fall earlier (mb add a button?);
 
-- "You need the key" for the ending door;
+
 - Ending counts after get to the door;
 - checkpoint sound;
 
