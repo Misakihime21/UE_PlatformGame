@@ -93,6 +93,7 @@ WHAT TO IMPROVE
 + on-step platform come back in case u fell;
 + oninput platform rotation;
 + text ui modified;
++ booster and key ui improved;
 + "You need the key" for the ending door;
 
 - impossible to climb after the falling plaftorms if u fall earlier (mb add a button?);
@@ -102,7 +103,6 @@ WHAT TO IMPROVE
 - checkpoint sound;
 
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
-- use text from sounds for the basics quest - it looks nice;
 
 - Shinbi's attack bug sometimes and doesn't reset
 - Gideon turning when is attacked in the back
