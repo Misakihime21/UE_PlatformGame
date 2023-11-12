@@ -100,16 +100,20 @@ WHAT TO IMPROVE
 + kills count;
 + non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
 + health sphere aren't used with full HP + UI;
++ new look for menu (pictures, etc.);
 
 
 
-- AI generated pictures for menu;
+- pause;
+- UI booster timer;
+- color code for ledges when it's climbable;
+- parent class for platforms and collectables;
+- 
+
+- Gideon turning when is attacked in the back;
 
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
 - Shinbi's attack bug sometimes and doesn't reset
-
-- Gideon turning when is attacked in the back
-
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
 	
@@ -117,11 +121,6 @@ WHAT TO IMPROVE
 	
 - somehow falling platforms doesn't really falls;	
 
-- pause;
-- UI booster timer;
-- color code for ledges when it's climbable;
-- parent class for platforms and collectables;
-- 
 
 SOUNDS
 - checkpoint sound;
