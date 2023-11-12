@@ -97,10 +97,11 @@ WHAT TO IMPROVE
 + "You need the key" for the ending door;
 + fixed climbing after the falling plaftorms if u fall earlier;
 + door leads to ending;
++ kills count;
++ non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
++ health sphere aren't used with full HP + UI;
 
-- kills count;
 
-- checkpoint sound;
 
 - AI generated pictures for menu;
 
@@ -114,19 +115,17 @@ WHAT TO IMPROVE
 	
 	
 	
-- non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
 - somehow falling platforms doesn't really falls;	
 
 - pause;
 - UI booster timer;
 - color code for ledges when it's climbable;
-- health sphere shouldn't be used when HP is full + UI - when you pick it up or when you can't;
-- jump doesn't response well - sometimes it isn't working;
-- add reset button on the end;
 - parent class for platforms and collectables;
-- change environment to more realistic one, so it wouldn't be flying platforms, but the houses,
- walls, mountains and so on;
 - 
+
+SOUNDS
+- checkpoint sound;
+- background music change;
 
 
 ANIMATION:
