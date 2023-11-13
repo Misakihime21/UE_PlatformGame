@@ -101,24 +101,19 @@ WHAT TO IMPROVE
 + non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
 + health sphere aren't used with full HP + UI;
 + new look for menu (pictures, etc.);
++ UI booster timer;
++ pause;
 
 
 
-- pause;
-- UI booster timer;
-- color code for ledges when it's climbable;
-- parent class for platforms and collectables;
-- 
 
 - Gideon turning when is attacked in the back;
 
+BUGS
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
 - Shinbi's attack bug sometimes and doesn't reset
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
-	
-	
-	
 - somehow falling platforms doesn't really falls;	
 
 
@@ -138,7 +133,9 @@ ANIMATION:
 - after crouching still there is running animation instead of idle.
 
 
-#ue кто нибудь смог зареспавнить акторов после респавна самого игрока?
-хочется, чтобы после смерти и возрождения враги и другие предметы тоже были на месте
-На сколько помню, тем же spawn actor from class в логике респауна игрока можно добавить
+
+- color code for ledges when it's climbable;
+- parent class for platforms and collectables;
+
+to respawn enemies and items after death  - use "spawn actor from class" in respawn logic
 
