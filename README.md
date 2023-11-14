@@ -103,21 +103,15 @@ WHAT TO IMPROVE
 + new look for menu (pictures, etc.);
 + UI booster timer;
 + pause;
-+ Gideon turning when is attacked in the back;
-
++ credits page;
++ change quest item appearance and the name in the opening cutscene;
++ falling platforms bugfix;
 
 SOUNDS
-- checkpoint sound;
-- background music change;
-
-
-BUGS
-- jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
-- Shinbi's attack bug sometimes and doesn't reset
-- bug when jumps on the moving actors - character is thrown away from the Y0 route;
-	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
-- somehow falling platforms doesn't really falls;	
-
++ checkpoint sound;
++ falling rocks sound;
++ ui click sound;
++ background music change;
 
 
 
@@ -133,6 +127,22 @@ ANIMATION:
 
 
 
+
+
+BUGS
+- jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
+- Shinbi's attack bug sometimes and doesn't reset
+- bug when jumps on the moving actors - character is thrown away from the Y0 route;
+	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
+- on-step plaftorms are not coming back when you jump on plaftorm a few times in a row;
+? Gideon turning when is attacked in the back?;
+
+
+
+
+
+
+- sound settings;
 - color code for ledges when it's climbable;
 - parent class for platforms and collectables;
 
