@@ -92,51 +92,50 @@ WHAT TO IMPROVE
 + platform changed to the rock mesh;
 + on-step platform come back in case u fell;
 + oninput platform rotation;
++ text ui modified;
++ booster and key ui improved;
++ "You need the key" for the ending door;
++ fixed climbing after the falling plaftorms if u fall earlier;
++ door leads to ending;
++ kills count;
++ non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
++ health sphere aren't used with full HP + UI;
++ new look for menu (pictures, etc.);
++ UI booster timer;
++ pause;
 
 
-- "You need the key" for the ending door;
-- Ending counts after get to the door;
-- checkpoint sound;
 
+
+- Gideon turning when is attacked in the back;
+
+BUGS
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
-- use text from sounds for the basics quest - it looks nice;
-
 - Shinbi's attack bug sometimes and doesn't reset
-- Gideon turning when is attacked in the back
-
-- Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - bug when jumps on the moving actors - character is thrown away from the Y0 route;
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
-	
-	
-	
-- non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
-	
+- somehow falling platforms doesn't really falls;	
 
-- pause;
-- UI booster timer;
-- kill count for the end screen;
-- color code for ledges when it's climbable;
-- health sphere shouldn't be used when HP is full + UI - when you pick it up or when you can't;
-- jump doesn't response well - sometimes it isn't working;
-- platforms oninput and onstep broke;
-- add reset button on the end;
-- parent class for platforms and collectables;
-- change environment to more realistic one, so it wouldn't be flying platforms, but the houses,
- walls, mountains and so on;
-- 
- После приседания проигрывается анимация бега
+
+SOUNDS
+- checkpoint sound;
+- background music change;
+
 
 ANIMATION:
+- Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - the hanging animation: hands are too wide;
 - the crouching animation: character looking in the wrong side;
 - death animation;
 - on-hit animation instead of LaunchCharacter (immune to a damage);
 - animation for the environment damage (Branch False | immune to a damage);
-- magic damage animation instead of collision hit.
+- magic damage animation instead of collision hit;
+- after crouching still there is running animation instead of idle.
 
 
-#ue кто нибудь смог зареспавнить акторов после респавна самого игрока?
-хочется, чтобы после смерти и возрождения враги и другие предметы тоже были на месте
-На сколько помню, тем же spawn actor from class в логике респауна игрока можно добавить
+
+- color code for ledges when it's climbable;
+- parent class for platforms and collectables;
+
+to respawn enemies and items after death  - use "spawn actor from class" in respawn logic
 
