@@ -103,11 +103,13 @@ WHAT TO IMPROVE
 + new look for menu (pictures, etc.);
 + UI booster timer;
 + pause;
++ Gideon turning when is attacked in the back;
 
 
+SOUNDS
+- checkpoint sound;
+- background music change;
 
-
-- Gideon turning when is attacked in the back;
 
 BUGS
 - jumps aren't working properly  - maybe waiting for animation to stop; \\cant jump from running
@@ -117,9 +119,6 @@ BUGS
 - somehow falling platforms doesn't really falls;	
 
 
-SOUNDS
-- checkpoint sound;
-- background music change;
 
 
 ANIMATION:
