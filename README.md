@@ -106,6 +106,10 @@ WHAT TO IMPROVE
 + credits page;
 + change quest item appearance and the name in the opening cutscene;
 + falling platforms bugfix;
++ attack fix - isn't able to attack while crouching\climbing\jumping; 
++ sound for attack;
++ remove texts after gideon\shinbi texts;
+
 
 SOUNDS
 + checkpoint sound;
@@ -113,20 +117,19 @@ SOUNDS
 + ui click sound;
 + background music change;
 
+ANIMATION
++ the crouching animation: character looking in the wrong side;
++ death animation;
++ animation for the environment damage (Branch False | immune to a damage);
++ after crouching still there is running animation instead of idle.
+
+
 
 
 ANIMATION:
 - Gideon's running - change AnimBP so he doesn't need Accelerating always;
 - the hanging animation: hands are too wide;
-- the crouching animation: character looking in the wrong side;
-- death animation;
-- on-hit animation instead of LaunchCharacter (immune to a damage);
-- animation for the environment damage (Branch False | immune to a damage);
-- magic damage animation instead of collision hit;
-- after crouching still there is running animation instead of idle.
-
-
-
+- on-hit animation (magic damage instead of collision hit) instead of LaunchCharacter (immune to a damage);
 
 
 BUGS
@@ -136,8 +139,7 @@ BUGS
 	partly fixed: from Movement Input disabled Get Control Rotation. + added blocking volume
 - on-step plaftorms are not coming back when you jump on plaftorm a few times in a row;
 ? Gideon turning when is attacked in the back?;
-
-
+- after death\reset nodes may fail on trying to connect to the BP_Shinbi;
 
 
 
