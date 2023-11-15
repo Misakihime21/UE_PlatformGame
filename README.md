@@ -8,6 +8,7 @@ Play here: https://misakihime21.itch.io/path-of-the-guardian
 
 WHAT IS DONE:
 
+LEVEL 
 - created new level;
 - changed the view on camera boom and the character's movement;
 - the basics obstacles added;
@@ -59,69 +60,75 @@ PLATFORM
 - moving platforms (duration in sec);
 - platforms activating by E button (float duration from 0 to 1);
 - destroying platforms (could also be used as damaging platforms from above);
+- on-step platform come back in case u fell;
+- oninput platform rotation;
 - door and key;
+
+SOUNDS
+- sound for attack;
+- checkpoint sound;
+- falling rocks sound;
+- ui click sound;
+- background music change;
 
 COLLECTABLES
 - heal sphere;
 - double jump booster (can have only one at the time);
 - collectables;
 - key;
-- UI for collectables.
+
+ANIMATION
+- the crouching animation: character looking in the wrong side;
+- death animation;
+- animation for the environment damage (Branch False | immune to a damage);
+- after crouching still there is running animation instead of idle.
+
+
+UI 
+- pause;
+- UI for collectables;
+- text ui modified;
+- credits page;
+- booster timer and key ui;
+- death screen + new game.
+
 
 END SCREEN
 - death count;
 - collectables;
-- reset button.
+- reset button;
+- kills count;
+
+BUG FIX
+- the climbing bag is still there when the angle of a jump is weird (changed WALL NORMAL valuable so it isn't rotates with character that much);
+- 
+- boost UI isn't disappear when you take another boost too fast;
+- bonus UI didn't dissapear after death\\reset;
 
 
 -------
 
 WHAT TO IMPROVE
 
-+ the climbing bag is still there when the angle of a jump is weird
-	prbly needed to change WALL NORMAL valuable so it isn't rotates with character that much.
 + respawn on the last checkpoint  BUTTON;
 + death after PainVolume - fadein isn't working;
 + death count - is going to null in BP SHinbi. transfer count to Gamemode. + prbbly has key there would be better;
 + respawn default point (from the start)
 	RespawnLocation default set manually to a player start location;
-+ death screen + new game;
-+ boost UI isn't disappear when you take another boost too fast;
-+ bonus UI didn't dissapear after death\\reset;
 + interactive platforms without button;
 + platform changed to the rock mesh;
-+ on-step platform come back in case u fell;
-+ oninput platform rotation;
-+ text ui modified;
-+ booster and key ui improved;
 + "You need the key" for the ending door;
 + fixed climbing after the falling plaftorms if u fall earlier;
 + door leads to ending;
-+ kills count;
 + non-static damage - it's gonna look better if the damage is within the certain range, like 20-30;
 + health sphere aren't used with full HP + UI;
 + new look for menu (pictures, etc.);
-+ UI booster timer;
-+ pause;
-+ credits page;
 + change quest item appearance and the name in the opening cutscene;
 + falling platforms bugfix;
 + attack fix - isn't able to attack while crouching\climbing\jumping; 
-+ sound for attack;
 + remove texts after gideon\shinbi texts;
 
 
-SOUNDS
-+ checkpoint sound;
-+ falling rocks sound;
-+ ui click sound;
-+ background music change;
-
-ANIMATION
-+ the crouching animation: character looking in the wrong side;
-+ death animation;
-+ animation for the environment damage (Branch False | immune to a damage);
-+ after crouching still there is running animation instead of idle.
 
 
 
